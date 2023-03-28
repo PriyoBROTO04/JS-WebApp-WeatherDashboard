@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/index-acc01791.css">
+    <script src="https://kit.fontawesome.com/0fefc49e08.js" crossorigin="anonymous"></script>
+    <title>About</title>
+</head>
+<body class="dark font-Poppins">
+    <main class=" bg-neutral-500 dark:bg-[#051322]">
+        <div class="container mx-auto space-y-10 px-8 py-16  opacity-0 transition-all duration-200">
+            <button class="bg-[#081d33] px-4 py-1 text-neutral-100 rounded-xl hover:bg-[#0d2e52] transition-colors duration-200 leading-10" onclick="history.back()"><i class="fa-solid fa-arrow-left"></i></button>
+            <h1 class="lg:text-6xl md:text-5xl text-4xl dark:text-neutral-100 font-bold ">The Weather App</h1>
+            <img class="w-full rounded-xl lg:w-[60%] 2xl:w-[50%]" src="./assests/images/mockup.jpg" alt="">
+            <h2 class="uppercase text-2xl lg:text-4xl font-medium dark:text-neutral-100">About this project</h2>
+            <div class=" font-normal leading-6 text-sm lg:text-lg dark:text-neutral-300 space-y-5">
+                <p >Introducing our weather dashboard, built with HTML, Tailwind CSS, and JavaScript! This web application provides you with real-time weather updates for your selected location, along with a variety of other useful features.
+                The dashboard has a simple and user-friendly design, allowing you to easily view and access the information you need. It has a clean and modern layout, with a responsive design that adapts to different screen sizes and devices.</p>
+                <p >
+                At the top of the dashboard, you can select your location by entering the city or zip code. Once you have entered your location, you will be presented with a summary of the current weather conditions, including the temperature, , wind speed, UV Index and more. You can also view a detailed hourly or daily forecast, allowing you to plan your day or week ahead.
+                The dashboard is built using Tailwind CSS, a popular utility-first CSS framework that allows for easy customization and styling. The use of JavaScript allows for dynamic updates and interactivity, such as dark and light mode, etc.</p>
+                <p>
+                Overall, our weather dashboard provides you with all the weather information you need in a simple and easy-to-use interface. Whether you are planning your day or simply want to stay informed about the weather in your area, our weather dashboard has you covered.
+                <p >Developed By <a href="https://github.com/PriyoBROTO04"><mark class="font-semibold bg-transparent text-neutral-100">Priyobroto Kar<i class="fa-solid fa-link pl-1"></i></mark></a>.</p>
+            </div>
+            <h2 class="uppercase text-2xl lg:text-4xl font-medium dark:text-neutral-100">Technical sheet</h2>
+            <div class="space-y-5 dark:text-neutral-300 leading-6 text-sm lg:text-lg">
+                <p >The languages used for this project are:</p>
+                <ul class=" list-disc list-inside">
+                    <li>HTML</li>
+                    <li>Tailwind CSS</li>
+                    <li>Vanilla JavaScript</li>
+                </ul>
+                <p>The APIs used for this project are:</p>
+                <ul class=" list-disc list-inside">
+                    <li>Geolocation-db : <a href="https://geolocation-db.com/">https://geolocation-db.com/</a></li>
+                    <li>Visual Crossing Weather : <a href="https://www.visualcrossing.com/weather-api">https://www.visualcrossing.com/weather-api/a></li>
+                    <li>Geo DB : <a href="http://geodb-cities-api.wirefreethought.com/">http://geodb-cities-api.wirefreethought.com/</a> </li>
+                </ul>
+            </div>
+            
+
+            
+        </div>
+        
+    </main>
+    <script>
+        window.addEventListener("load", setTimeout(()=>{
+            document.querySelector(".container").classList.remove("opacity-0")
+        },1000))
+    </script>
+</body>
+</html>
